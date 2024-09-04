@@ -17,5 +17,8 @@ document.addEventListener('mouseup', function() {
 }, true)
 
 document.addEventListener('mouseup', function(e) {
-
+    if(isDown) {
+        box.style.left = (e.clientX + offset[0]) + 'px'
+        box.style.top  = (e.clientY + offset[1]) + 'px'
+    }
 }, true)
