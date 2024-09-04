@@ -13,3 +13,14 @@
     align-items: center;
 }
 
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(81, 6, 81);
+    position: absolute;
+    cursor: grab;
+}
+
+.box.active{
+    cursor: grabbing;
+}
